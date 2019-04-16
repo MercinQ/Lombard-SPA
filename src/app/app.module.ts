@@ -12,7 +12,7 @@ import { ProductComponent } from './Model-Component/Product/Product.component';
 import { TransactionComponent } from './Model-Component/Transaction/Transaction.component';
 import { AddTransactionComponent } from './AddTransaction/AddTransaction.component';
 import { TransactionTableComponent } from './TransactionTable/TransactionTable.component';
-
+import { AddProductComponent } from './Add-Product/Add-Product.component';
 
 @NgModule({
    declarations: [
@@ -23,13 +23,15 @@ import { TransactionTableComponent } from './TransactionTable/TransactionTable.c
       ProductComponent,
       TransactionComponent,
       AddTransactionComponent,
-      TransactionTableComponent
+      TransactionTableComponent,
+      AddProductComponent
    ],
    imports: [
       BrowserModule,
       AppRoutingModule,
       NgbModule,
-      HttpClientModule
+      HttpClientModule,
+      FormsModule
    ],
    providers: [],
    bootstrap: [

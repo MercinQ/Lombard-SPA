@@ -87,3 +87,28 @@
     <button mat-raised-button color="primary" (click)="addCrewMember()">Add product</button>
   </div>
 </form> -->
+<div *ngFor="let product of transaction.productHistory">  
+    <form>
+        <div class="form-group">
+          <label >Product name</label>
+          <input class="form-control" [(ngModel)]="product.name" placeholder="Name" name = "name">
+        </div>
+        <div class="form-group">
+          <label >Price</label>
+          <input class="form-control" [(ngModel)]="product.price" placeholder="0.00" name="price">
+        </div>
+        <div class="form-group">
+          <label >Quantity</label>
+          <input class="form-control" [(ngModel)]="product.quantity" placeholder="0" name = "quantity">
+        </div>
+      </form>
+  <!-- <app-Add-Product [(ngModel)] = "product" ></app-Add-Product> -->
+</div>
+    
+    <!-- <p>{{ product.name }}</p> -->
+
+<button type="submit" class="btn btn-primary" (click) = "AddProduct()">Add product</button>
+<div class="row">
+    <button type="submit" class="btn btn-primary">Buy</button>
+    <button type="submit" class="btn btn-primary">Sell</button>
+</div>
