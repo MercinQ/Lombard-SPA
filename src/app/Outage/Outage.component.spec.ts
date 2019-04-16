@@ -3,21 +3,21 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { AddTransactionComponent } from './AddTransaction.component';
+import { OutageComponent } from './Outage.component';
 
-describe('AddTransactionComponent', () => {
-  let component: AddTransactionComponent;
-  let fixture: ComponentFixture<AddTransactionComponent>;
+describe('OutageComponent', () => {
+  let component: OutageComponent;
+  let fixture: ComponentFixture<OutageComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AddTransactionComponent ]
+      declarations: [ OutageComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AddTransactionComponent);
+    fixture = TestBed.createComponent(OutageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
