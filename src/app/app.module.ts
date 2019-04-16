@@ -7,10 +7,10 @@ import { FormsModule } from '@angular/forms';
 import { NavComponent } from './nav/nav.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProductTableComponent } from './productTable/productTable.component';
+import { UpdateProductComponent } from './updateProduct/updateProduct.component';
 import { ProductComponent } from './Model-Component/Product/Product.component';
 import { TransactionComponent } from './Model-Component/Transaction/Transaction.component';
 import { TransactionTableComponent } from './TransactionTable/TransactionTable.component';
-import { AddProductComponent } from './Add-Product/Add-Product.component';
 import { OutageComponent } from './Outage/Outage.component';
 import { AddTransactionComponent } from './AddTransaction/AddTransaction.component';
 
@@ -20,12 +20,12 @@ import { AddTransactionComponent } from './AddTransaction/AddTransaction.compone
       AppComponent,
       NavComponent,
       ProductTableComponent,
+      UpdateProductComponent,
       ProductComponent,
       TransactionComponent,
-      AddTransactionComponent,
-      AddProductComponent,
       TransactionTableComponent,
-      OutageComponent
+      OutageComponent,
+      AddTransactionComponent
    ],
    imports: [
       BrowserModule,
