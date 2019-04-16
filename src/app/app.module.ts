@@ -10,12 +10,10 @@ import { ProductTableComponent } from './productTable/productTable.component';
 import { ProductComponent } from './Model-Component/Product/Product.component';
 import { TransactionComponent } from './Model-Component/Transaction/Transaction.component';
 import { TransactionTableComponent } from './TransactionTable/TransactionTable.component';
-<<<<<<< HEAD
 import { AddProductComponent } from './Add-Product/Add-Product.component';
-=======
 import { OutageComponent } from './Outage/Outage.component';
+import { AddTransactionComponent } from './AddTransaction/AddTransaction.component';
 
->>>>>>> 101b09f3c19547f9a034a2b4ac706773d352c801
 
 @NgModule({
    declarations: [
@@ -24,14 +22,10 @@ import { OutageComponent } from './Outage/Outage.component';
       ProductTableComponent,
       ProductComponent,
       TransactionComponent,
-<<<<<<< HEAD
       AddTransactionComponent,
-      TransactionTableComponent,
-      AddProductComponent
-=======
+      AddProductComponent,
       TransactionTableComponent,
       OutageComponent
->>>>>>> 101b09f3c19547f9a034a2b4ac706773d352c801
    ],
    imports: [
       BrowserModule,
